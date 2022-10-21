@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - drawsa diagonal line
+ * print_diagonal - draws a diagonal line
  * @n: numbers of '\' to be printed
+ * Return: Always 0 (Success)
  */
 void print_diagonal(int n)
 {
@@ -13,9 +14,8 @@ void print_diagonal(int n)
 
 	for (x = 0; x < n; x++)
 	{
-		for (y = 0; y < 0; y++)
+		for (y = 0; y < x; y++)
 			_putchar(' ');
-		
 		_putchar('\\');
 		_putchar('\n');
 	}
