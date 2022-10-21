@@ -3,7 +3,6 @@
 /**
  * print_diagonal - drawsa diagonal line
  * @n: numbers of '\' to be printed
- * Return: Always 0 (Success)
  */
 void print_diagonal(int n)
 {
