@@ -3,6 +3,7 @@
 /**
  * print_line - prints a straight line using '_'
  * @n: the number of '_' to be printed
+ * Return: Always 0 (Success)
  */
 void print_line(int n)
 {
